@@ -6,8 +6,11 @@ This project aims to classify the health status of salmon (healthy or diseased) 
 🚧 Still in development — the model is not final.
 
 ## How to Run
-1. Install requirements: `pip install -r requirements.txt`
-2. Run training: `python main.py`
+1. Install requirements:
+`numpy==1.24.3
+tensorflow==2.13.0`
+
+3. Run training: `python main.py`
 
 ## Dataset
 Custom salmon DNA dataset (not publicly released yet).
